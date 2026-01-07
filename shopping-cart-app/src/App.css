@@ -14,3 +14,8 @@ header nav a {
   text-decoration: none;
   padding: 0.5rem;
 }
+
+main {
+  max-width: 1200px;
+  margin: 2.5rem auto;
+}
