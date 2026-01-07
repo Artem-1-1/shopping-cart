@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Hourai Elixir",
+    "path": "/store/beige-sofa",
+    "description": "",
+    "price": "1290.99",
+    "prefix": "$",
+    "image": "../src/assets/Hourai_Elixir.png",
+    "id": "0"
+  },
+  {
+    "name": "Random Grimoire",
+    "path": "/store/random-grimoire",
+    "description": "",
+    "price": "500.00",
+    "prefix": "$",
+    "image": "../src/assets/Grimoire.jpg",
+    "id": "1"
+  },
+  {
+    "name": "Random Devil Fruit",
+    "path": "/store/devil-fruit",
+    "description": "",
+    "price": "250.00",
+    "prefix": "$",
+    "image": "../src/assets/Devil-Fruit.png",
+    "id": "2"
+  },
+  {
+    "name": "Twelve Talismans",
+    "path": "/store/talismans",
+    "description": "",
+    "price": "999.99",
+    "prefix": "$",
+    "image": "../src/assets/TwelveTalismans.jpg",
+    "id": "3"
+  },
+  {
+    "name": "Death Note",
+    "path": "/store/death-note",
+    "description": "",
+    "price": "1500.00",
+    "prefix": "$",
+    "image": "../src/assets/Death-Note.jpg",
+    "id": "4"
+  },
+  {
+    "name": "Stand Arrow",
+    "path": "/store/arrow",
+    "description": "",
+    "price": "750.00",
+    "prefix": "$",
+    "image": "../src/assets/Stand-arrow.jpg",
+    "id": "5"
+  }
+]

@@ -12,7 +12,7 @@ export default function NavBar() {
           <NavLink to="/">
             <img src={Home} alt="Home icon" />
             Home</NavLink>
-          <NavLink to="/shop">
+          <NavLink to="/store">
             <img src={Shop} alt="Shop icon" />
             Store
           </NavLink>
