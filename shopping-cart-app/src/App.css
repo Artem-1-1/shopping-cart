@@ -1,3 +1,7 @@
+header {
+  background-color: #612dae;
+}
+
 header nav {
   display: flex;
   justify-content: end;
@@ -8,11 +12,14 @@ header nav {
 
 header nav img {
   width: 2rem;
+  filter: invert(100%);
 }
 
 header nav a {
   text-decoration: none;
   padding: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
 }
 
 main {
@@ -82,4 +89,30 @@ main {
   to {
     transform: scale(1);
   }
+}
+
+/* Cart */
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.empty-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.empty-cart-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.continue-shopping {
+  background-color: #612dae;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: white;
 }
