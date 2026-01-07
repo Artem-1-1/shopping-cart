@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function ProductItem({ product }) {
   return (
-    <Link className='store-item' to={product.path}>
+    <Link className='store-item' to={product.path} state={{ product }}>
       <div className='product-image-container'>
         <img src={product.image} alt={product.name} className="product-image" />
       </div>

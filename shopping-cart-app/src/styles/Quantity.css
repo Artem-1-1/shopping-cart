@@ -1,0 +1,27 @@
+.quantity-counter {
+  display: flex;
+  gap: 0.5rem;
+}
+
+
+.increment,
+.decrement {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+
+.increment img,
+.decrement img {
+ width: 2rem;
+}
+
+.quantity-input {
+  width: 3rem;
+  height: 2rem;
+  text-align: center;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+}

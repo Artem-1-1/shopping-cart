@@ -1,8 +1,8 @@
 [
   {
     "name": "Hourai Elixir",
-    "path": "/store/beige-sofa",
-    "description": "",
+    "path": "/store/hourai-elixir",
+    "description": "Anyone who drinks this forbidden elixir will cease to age, never become ill, and will never be able to die. One will be as frail and vulnerable as before, but every injury shall cease; critical injuries will be healed in a matter of days. Complete destruction results in complete restoration. ",
     "price": "1290.99",
     "prefix": "$",
     "image": "../src/assets/Hourai_Elixir.png",
@@ -11,7 +11,7 @@
   {
     "name": "Random Grimoire",
     "path": "/store/random-grimoire",
-    "description": "",
+    "description": "Grimoires are special books made of mana that greatly enhance the owners' magical capabilities, enabling them to use more complex magic. These books also serve as written records for the owners' spells.",
     "price": "500.00",
     "prefix": "$",
     "image": "../src/assets/Grimoire.jpg",
@@ -20,7 +20,7 @@
   {
     "name": "Random Devil Fruit",
     "path": "/store/devil-fruit",
-    "description": "",
+    "description": "Devil Fruits are supernatural fruits that each grant a unique power when eaten, at the cost of removing the eater's ability to swim.[1] A Devil Fruit power can only be held by one individual at a time, but will reappear in a new fruit after they die.",
     "price": "250.00",
     "prefix": "$",
     "image": "../src/assets/Devil-Fruit.png",
@@ -29,7 +29,7 @@
   {
     "name": "Twelve Talismans",
     "path": "/store/talismans",
-    "description": "",
+    "description": "The Talismans are a legendary set of twelve magical charms originating from China. They are represented by the twelve animals of the Chinese zodiac. Each Talisman possesses its own magic that grants a different power. ",
     "price": "999.99",
     "prefix": "$",
     "image": "../src/assets/TwelveTalismans.jpg",
@@ -38,7 +38,7 @@
   {
     "name": "Death Note",
     "path": "/store/death-note",
-    "description": "",
+    "description": " The notebook is activated when a human's name is written in it. Regardless of how many names are written in it, the notebook will never run out of pages. Death Notes are made from a material unknown to human science; however, they nevertheless feel and look like regular notebooks, and it is possible to rip and burn the pages. ",
     "price": "1500.00",
     "prefix": "$",
     "image": "../src/assets/Death-Note.jpg",
@@ -47,7 +47,7 @@
   {
     "name": "Stand Arrow",
     "path": "/store/arrow",
-    "description": "",
+    "description": "When a living creature is pierced by one of the Arrows, it will catalyze and awaken the individual's dormant Stand. ",
     "price": "750.00",
     "prefix": "$",
     "image": "../src/assets/Stand-arrow.jpg",

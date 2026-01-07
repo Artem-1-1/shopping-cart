@@ -1,8 +1,11 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import Quantity from '../components/Quantity'
+import '../styles/ProductPage.css'
 
-export default function ProductPage({ product, onAddToCart}) {
+export default function ProductPage({ onAddToCart}) {
+  const { state } = useLocation();
+  const product = state?.product;
   const [quantity, setQuantity] = useState(1);
   const navigate = useNavigate();
   const onInputChange = (value) => setQuantity(value === "" ? value : +value);

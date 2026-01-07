@@ -1,3 +1,7 @@
+import Minus from '../assets/minus.svg'
+import Plus from '../assets/plus.svg'
+import '../styles/Quantity.css'
+
 export default function Quantity({
   quantity,
   onIncrement,
@@ -13,7 +17,7 @@ export default function Quantity({
         onClick={onDecrement}
         aria-label="decrement"
         type="button">
-          <i className="fa-solid fa-minus" />
+          <img src={Minus} alt="minus" />
       </button>
 
       <input
@@ -25,6 +29,7 @@ export default function Quantity({
         onChange={onInputChange}
         autoComplete="off"
         inputMode="numeric"
+        disabled
       />
 
       <button
@@ -33,7 +38,7 @@ export default function Quantity({
         onClick={onIncrement}
         type="button"
       >
-        <i className="fa-solid fa-plus" />
+        <img src={Plus} alt="plus" />
       </button>
     </div>
   )
