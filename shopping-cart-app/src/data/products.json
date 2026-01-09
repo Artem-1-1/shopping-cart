@@ -12,7 +12,7 @@
     "name": "Random Grimoire",
     "path": "/store/random-grimoire",
     "description": "Grimoires are special books made of mana that greatly enhance the owners' magical capabilities, enabling them to use more complex magic. These books also serve as written records for the owners' spells.",
-    "price": "500.00",
+    "price": "1750.00",
     "prefix": "$",
     "image": "../src/assets/Grimoire.jpg",
     "id": "1"
@@ -20,8 +20,8 @@
   {
     "name": "Random Devil Fruit",
     "path": "/store/devil-fruit",
-    "description": "Devil Fruits are supernatural fruits that each grant a unique power when eaten, at the cost of removing the eater's ability to swim.[1] A Devil Fruit power can only be held by one individual at a time, but will reappear in a new fruit after they die.",
-    "price": "250.00",
+    "description": "Devil Fruits are supernatural fruits that each grant a unique power when eaten, at the cost of removing the eater's ability to swim. A Devil Fruit power can only be held by one individual at a time, but will reappear in a new fruit after they die.",
+    "price": "1750.00",
     "prefix": "$",
     "image": "../src/assets/Devil-Fruit.png",
     "id": "2"
@@ -30,10 +30,19 @@
     "name": "Twelve Talismans",
     "path": "/store/talismans",
     "description": "The Talismans are a legendary set of twelve magical charms originating from China. They are represented by the twelve animals of the Chinese zodiac. Each Talisman possesses its own magic that grants a different power. ",
-    "price": "999.99",
+    "price": "1999.99",
     "prefix": "$",
     "image": "../src/assets/TwelveTalismans.jpg",
     "id": "3"
+  },
+  {
+    "name": "Ultra Divine Water",
+    "path": "/store/divine-water",
+    "description": "The Ultra Divine Water is a magic water that will draw out all of the drinker's potential if they can survive its poisonous and painful effects. Thus, if a drinker has already obtained their full potential, it will have no effect.",
+    "price": "2000.00",
+    "prefix": "$",
+    "image": "../src/assets/Ultra-Divine-Water.jpg",
+    "id": "4"
   },
   {
     "name": "Death Note",
@@ -42,15 +51,24 @@
     "price": "1500.00",
     "prefix": "$",
     "image": "../src/assets/Death-Note.jpg",
-    "id": "4"
+    "id": "5"
   },
   {
     "name": "Stand Arrow",
     "path": "/store/arrow",
     "description": "When a living creature is pierced by one of the Arrows, it will catalyze and awaken the individual's dormant Stand. ",
-    "price": "750.00",
+    "price": "1750.00",
     "prefix": "$",
     "image": "../src/assets/Stand-arrow.jpg",
-    "id": "5"
+    "id": "6"
+  },
+  {
+    "name": "Chaos Emeralds ",
+    "path": "/store/emeralds",
+    "description": "They are a septet of ancient gemstones tied to the Master Emerald that possess virtually unlimited power. Those who hold them can use them to cause miracles[2] and other feats, such as warping space and time and powering machines. Anyone who combines all seven Chaos Emeralds can harness unimaginable power and undergo a transformation into a heavily empowered form known as a Super State, through a process called Super Transformation.",
+    "price": "2500.00",
+    "prefix": "$",
+    "image": "../src/assets/Chaos-Emeralds.jpg",
+    "id": "7"
   }
 ]

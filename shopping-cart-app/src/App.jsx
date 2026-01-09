@@ -37,25 +37,26 @@ export default function App() {
 
   const subtotal = cart.reduce((acc, item) => acc + item.price * item.quantity, 0).toFixed(2);
 
+  const totalCartItems = cart.reduce((acc, item) => acc + item.quantity, 0);
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<NavBar />}>
-      <Route index element={<Home />} />
-      <Route path='store' element={<Store/>} />
-      <Route path='store/:id' element={<ProductPage onAddToCart={handleAddToCart}/>} />
-      <Route path='cart' element={<Cart 
-          cart={cart} 
-          subtotal={subtotal}
-          onRemove={handleRemove}
-          onIncrement={(item) => handleUpdateQuantity(item.id, item.quantity + 1)}
-          onDecrement={(item) => handleUpdateQuantity(item.id, item.quantity - 1)}
-          onChange={handleUpdateQuantity}
-          />}/>
-      <Route path="*" element={<NotFound />} />
-    </Route>
-  )
-) 
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<NavBar cartAmount={totalCartItems} />}>
+        <Route index element={<Home />} />
+        <Route path='store' element={<Store/>} />
+        <Route path='store/:id' element={<ProductPage onAddToCart={handleAddToCart}/>} />
+        <Route path='cart' element={<Cart 
+            cart={cart} 
+            subtotal={subtotal}
+            onRemove={handleRemove}
+            onIncrement={(item) => handleUpdateQuantity(item.id, item.quantity + 1)}
+            onDecrement={(item) => handleUpdateQuantity(item.id, item.quantity - 1)}
+            onChange={handleUpdateQuantity}
+            />}/>
+        <Route path="*" element={<NotFound />} />
+      </Route>
+    )
+  ) 
 
   return (
     <>

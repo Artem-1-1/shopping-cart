@@ -4,6 +4,25 @@
   align-items: center;
 }
 
+.cart-header {
+  border-bottom: 4px dashed black;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  width: clamp(156px, 95%, 1350px);
+  text-align: center;
+}
+
+.cart-content {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 32px;
+  width: clamp(310px, 100%, 500px);
+}
+
 .empty-cart {
   display: flex;
   flex-direction: column;

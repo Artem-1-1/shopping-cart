@@ -3,7 +3,7 @@ import Home from '../assets/home.svg'
 import Shop from '../assets/shop.svg'
 import Cart from '../assets/cart.svg'
 
-export default function NavBar() {
+export default function NavBar({cartAmount}) {
   return (
     <div className="navigation">
       <ScrollRestoration/>
@@ -19,6 +19,16 @@ export default function NavBar() {
           <NavLink to="/cart">
             <img src={Cart} alt="Cart icon" />
             Your Cart
+            {
+
+            cartAmount ? (
+            <span className="amount-in-cart">
+              {
+                cartAmount > 99 ? "99+" : cartAmount
+              }
+            </span>
+              ) : null
+            }
           </NavLink>
         </nav>
       </header>
