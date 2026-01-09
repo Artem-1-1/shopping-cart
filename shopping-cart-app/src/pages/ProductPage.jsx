@@ -1,11 +1,13 @@
 import { useState } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation, useParams } from "react-router-dom";
 import Quantity from '../components/Quantity'
 import '../styles/ProductPage.css'
+import productData from '../data/products.json'
 
 export default function ProductPage({ onAddToCart}) {
+  const { id } = useParams();
   const { state } = useLocation();
-  const product = state?.product;
+  const product = state?.product || productData.find(p => String(p.id) === String(id));
   const [quantity, setQuantity] = useState(1);
   const navigate = useNavigate();
   const onInputChange = (value) => setQuantity(value === "" ? value : +value);
